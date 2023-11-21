@@ -10,7 +10,7 @@ class Registrar_Tienda2Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registrar_tienda2)
     }
-    fun btonRegistrarTienda(view: View){
+    fun btonRegistrarTienda2(view: View){
         val intent= Intent(this,Login3Activity::class.java).apply {  }
         startActivity(intent)
     }

@@ -11,7 +11,7 @@ class Login2Activity : AppCompatActivity() {
         setContentView(R.layout.activity_login2)
     }
     fun iniciarDomicilio(view: View){
-        val intent=Intent(this,MainActivity::class.java).apply {  }
+        val intent=Intent(this,tiendas_Activity::class.java).apply {  }
         startActivity(intent)
     }
     fun olvidarContraDomicilio(view: View){
