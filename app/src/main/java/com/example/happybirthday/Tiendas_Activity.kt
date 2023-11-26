@@ -2,6 +2,7 @@ package com.example.happybirthday
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.happybirthday.R
 
 class tiendas_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.happybirthday.Activity.MainActivity
 
 class Login2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,9 +12,9 @@ class Login2Activity : AppCompatActivity() {
         setContentView(R.layout.activity_login2)
     }
     fun iniciarDomicilio(view: View){
-        val intent=Intent(this,tiendas_Activity::class.java).apply {  }
+        val intent=Intent(this,MainActivity::class.java).apply {  }
         startActivity(intent)
-    }
+    }//tiendas_Activity
     fun olvidarContraDomicilio(view: View){
         val intent=Intent(this,Cambiar_ContraActivity::class.java).apply {  }
         startActivity(intent)

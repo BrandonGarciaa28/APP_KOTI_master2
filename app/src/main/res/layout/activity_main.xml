@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -17,76 +17,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/view2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:text="Tiendas"
-                android:textAlignment="center"
-                android:textColor="@color/white"
-                android:textSize="40dp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:id="@+id/editTextText7"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_margin="16dp"
-                android:background="@drawable/buscador"
-                android:drawableStart="@drawable/lupa_2"
-                android:drawablePadding="8dp"
-                android:ems="10"
-                android:hint="buscar tiedas"
-                android:inputType="text"
-                android:padding="12dp"
-                android:textColor="@color/white"
-                android:textColorHint="@color/white"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/textView15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="24dp"
-                android:layout_marginEnd="24dp"
-                android:text="Tiendas cercanas "
-                android:layout_marginBottom="12dp"
-                android:textColor="#FFFFFF"
-
-                android:textSize="20dp"
-                android:textStyle="bold"
-
-
-                />
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
-
-            <TextView
-                android:id="@+id/textView16"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Categorias "
-                android:textColor="#FFFFFF"
-
-                android:textSize="20dp"
-                android:textStyle="bold"
-
-
-                />
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
-        </LinearLayout>
+            android:layout_height="wrap_content" />
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
