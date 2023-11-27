@@ -148,6 +148,7 @@
                 android:layout_margin="32dp"
                 android:layout_marginTop="10dp"
                 android:background="@android:color/transparent"
+                android:onClick="Ejemplo"
                 android:text="Click aquí"
                 android:textColor="@color/white"
                 android:textSize="25sp"

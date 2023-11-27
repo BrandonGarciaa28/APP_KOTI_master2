@@ -18,4 +18,10 @@ class LoginActivity : AppCompatActivity() {
         val intent= Intent(this,Login3Activity::class.java).apply {  }
         startActivity(intent)
     }
+
+    fun Ejemplo (view: View){
+        val intent= Intent(this,productos_Activity::class.java).apply {  }
+        startActivity(intent)
+    }
+
 }

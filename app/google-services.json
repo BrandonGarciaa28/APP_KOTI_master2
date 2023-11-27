@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "689544845186",
+    "project_id": "login-79edd",
+    "storage_bucket": "login-79edd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689544845186:android:109c4ffaee22a8927b619b",
+        "android_client_info": {
+          "package_name": "com.example.happybirthday"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9KOaV-x2Pi5iuOlziYH3JHQUxTWHH5Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689544845186:android:12d4b300500636677b619b",
+        "android_client_info": {
+          "package_name": "com.example.prueba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9KOaV-x2Pi5iuOlziYH3JHQUxTWHH5Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
